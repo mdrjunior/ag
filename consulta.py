@@ -7,7 +7,8 @@ app = Flask(__name__)
 HEADERS = {
     "ocp-apim-subscription-key": "4b70bdf7ac3548a7afefb73bf7ce4aa5",
     "origin": "https://servicosonline.aguasdorio.com.br",
-    "referer": "https://servicosonline.aguasdorio.com.br/"
+    "referer": "https://servicosonline.aguasdorio.com.br/",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
 }
 
 # Página + resultado na mesma URL
